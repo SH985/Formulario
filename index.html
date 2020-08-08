@@ -1,94 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Formulario/Carro sin excusas</title>
-    <link rel="stylesheet" href="css/Formulario.css">
-  </head>
-  <body>
+<<html5>
+<head>
+    <title>Mi Página web</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></li>
+</head>
+<body>
 
-    <h1>Formulario</h1>
-  <p>A través de este formulario puedes enviarme un mensaje para hacer más rapido y facil tu tramite para tu vehiculo!</p>
+<div class="row">
+   <div id="templatemo_contact" class="col-md-4 gallery-contact">
+</div>
+   <div class="col-md-8 templatemo_contactform">
+   <div class="templatemo_contacttitle">CONTACTO</div>
+    <div class="templatemo_sub_contacttitle">Si requieres un subtitulo escribelo aquí</div>
+        <p> Escribe aquí el mensaje que quieres presentar si es necesario.</p>
 
-  <form action="envio.php" subject="feedback"   method="post"    enctype="text/plain">
+   <form action="enviar.php" method="post">
+                        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+                        <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+                        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
+                        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+                        <div class="clear"></div>
+                            <div class="col-md-8"> 
+                                <button type="submit" class="btn btn-primary">ENVIAR </button>
+    </div>
+    </form>
+    </div>
 
-      <p class="texto"><label>Escribe tu nombre: <input type="text" name="name" class="redondo" placeholder="Escribe tu nombre"></label></p>
-
-      <p><label>Email: <input type="text" class="redondo"  name="mail" placeholder="Escribe tu correo"></label></p>
-
-      <p><label> celular: <input type="text" class="redondo" name="phone" placeholder="Escribe tu numero celular"></label></p>
-
-<p><label>¿Que vehiculo deseas? :
-  <br/>
-
-
-<select class="redondo"  name="message">
-  <option value="">Automoviles</option>
-   <option value="T">BEAT</option>
-   <option value="">SPARK GT</option>
-  <option value="">SPARK GT ACTIV</option>
-  <option value="">ONIX TURBO SEDAN</option>
- <option value=""> ONIX TURBO RRS</option>
- </select>
-
-
-   <select class="redondo" name="message">
-   <option value="">Camionetas</option>
-   <option value="">BEAT</option>
-   <option value="">SPARK GT</option>
-     <option value="">SPARK GT ACTIV</option>
-   <option value="">ONIX TURBO SEDAN</option>
-   <option value=""> ONIX TURBO RRS</option>
-     </select>
-
-
-
-   <select class="redondo" name="message">
-   <option value="">Camiones</option>
-   <option value="">BEAT</option>
-   <option value="">SPARK GT</option>
-   <option value="">SPARK GT ACTIV</option>
-   <option value="">ONIX TURBO SEDAN</option>
-   <option value=""> ONIX TURBO RRS</option>
-   </select>
-
-
-
-
-
- <select class="redondo" name="message">
-   <option value="">Vans</option>
-   <option value="">BEAT</option>
-   <option value="">SPARK GT</option>
-   <option value="">SPARK GT ACTIV</option>
-   <option value="">ONIX TURBO SEDAN</option>
-     <option value="S"> ONIX TURBO RRS</option>
-       </select>
-
-      </label></p>
-
-      <p><label>¿Como has pensado hacer el negocios?</label></p>
-
-    <p>  <input type="radio"  value="">Financiado
-      <input type="radio"  value=""> Contado
-
-      </p>
-        <p><label>¿Cuentas con cuota inicial?</label>
-          <input type="radio"  value="i">Si
-          <input type="radio"  value=""> No
-                                                                <input type="text" name="message"  class= "redondo" placeholder= "Escribe el valor $"></p>
-
-  <p><label>¿Cual es tu disponible mensual <input type="text" name="message" value=""  class="redondo" placeholder="Escribe el valor $"></label></p>
-
-      <p><label>¿Para cuando necesitas el vehiculo? <input type="text" class="redondo" placeholder=""></label></p>
-
-
-<p>
-      <input type="submit" value="Enviar mensaje">
-
-      <input type="reset" value="Comenzar de nuevo">
-
-    </p>
-  </form>
-  </body>
+</body>
 </html>

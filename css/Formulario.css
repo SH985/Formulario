@@ -1,0 +1,30 @@
+h1{
+  font-size:450%;
+  color: #fff;
+  text-align: center;
+  border-radius: #000;
+}
+
+body{
+  background:url(../img/Carro.jpg);
+background-repeat: no-repeat;
+background-size: cover
+}
+
+fieldset input{
+  text-align: center;
+  font-size: 100%;
+  margin-left: 105%;
+  margin-right: 105%;
+  margin-bottom: 300%;
+}
+
+p {
+  text-align: center;
+  font-size: 145%;
+  color: #fff;
+}
+
+.redondo {
+  border-radius: 5px;
+}

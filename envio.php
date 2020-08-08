@@ -20,6 +20,6 @@ $asunto = 'Mensaje de Prueba';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:Formulario prueba.html");
+header("Location:https://sh985.github.io/formulario/");
 ?>
 -->

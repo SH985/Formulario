@@ -16,10 +16,10 @@ $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
 $para = 'sebastianhenao.sandoval@gmail.com';
-$asunto = 'Mensaje de Prueba';
+$asunto = 'Me interesa un Vehiculo';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:https://sh985.github.io/formulario/");
+header("Location:https://www.facebook.com/carrosinexcusas");
 ?>
 -->

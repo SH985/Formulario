@@ -20,6 +20,6 @@ $asunto = 'Me interesa un Vehiculo';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:https://www.facebook.com/carrosinexcusas");
+header("Location:https://sh985.github.io/Formulario/");
 ?>
 -->
